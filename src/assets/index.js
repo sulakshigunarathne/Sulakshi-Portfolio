@@ -12,7 +12,7 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import python from "./tech/python.png";
+import python from "./tech/python.jpeg";
 import firebase from "./tech/firebase.png";
 import postgresql from "./tech/postgresql.png";
 import mysql from "./tech/mysql.png";

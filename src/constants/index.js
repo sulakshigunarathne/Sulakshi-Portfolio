@@ -57,10 +57,6 @@ const technologies = [
     icon: tensorflow,
   },
   {
-    name: "pytorch",
-    icon: pytorch,
-  },
-  {
     name: "Scikit-learn",
     icon: scikit,
   },
