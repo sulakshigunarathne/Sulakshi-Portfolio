@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
 import myPhoto from "../assets/me.jpg";
+import ReactTypingEffect from 'react-typing-effect';
 
 const Hero = () => {
   return (
@@ -17,12 +17,24 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#915EFF]'>Sulakshi</span>
+            Hi, I'm <span className='text-[#6b3ccf]'>Sulakshi</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+          {/* <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I am a Data Science undergraduate<br className='sm:block hidden' />
              with a strong passion for AI, machine learning, and developing, data-driven solutions
-          </p>
+          </p> */}
+          <div className={`${styles.heroSubText} mt-2 text-white-100`}>
+      <ReactTypingEffect
+        text={[
+          "I am a Data Science undergraduate with a strong passion for AI, machine learning, and developing data-driven solutions.",
+        ]}
+        speed={250} // Typing speed in milliseconds
+        eraseSpeed={50} // Erase speed in milliseconds
+        typingDelay={200} // Delay before typing starts
+        eraseDelay={3000} // Delay before text is erased
+        cursor="|" // Customize the cursor
+      />
+    </div>
         </div>
       </div>
 
