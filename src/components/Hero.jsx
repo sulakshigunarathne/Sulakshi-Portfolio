@@ -28,11 +28,11 @@ const Hero = () => {
         text={[
           "I am a Data Science undergraduate with a strong passion for AI, machine learning, and developing data-driven solutions.",
         ]}
-        speed={250} // Typing speed in milliseconds
-        eraseSpeed={50} // Erase speed in milliseconds
-        typingDelay={200} // Delay before typing starts
-        eraseDelay={3000} // Delay before text is erased
-        cursor="|" // Customize the cursor
+        speed={50} // Typing speed in milliseconds
+        eraseSpeed={250} // Erase speed in milliseconds
+        typingDelay={200} 
+        eraseDelay={5000} 
+        cursor="|" 
       />
     </div>
         </div>

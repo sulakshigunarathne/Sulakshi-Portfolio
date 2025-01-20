@@ -66,7 +66,7 @@
 
 // export default SectionWrapper(About, "about");
 import React from "react";
-import Tilt from "react-parallax-tilt"; // Updated import
+import Tilt from "react-parallax-tilt"; 
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -75,10 +75,10 @@ import { fadeIn, textVariant } from "../utils/motion";
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt
-    tiltMaxAngleX={45} // Updated props
-    tiltMaxAngleY={45} // Updated props
-    scale={1} // Updated props
-    transitionSpeed={450} // Updated props
+    tiltMaxAngleX={45} 
+    tiltMaxAngleY={45} 
+    scale={1} 
+    transitionSpeed={450} 
     className="xs:w-[250px] w-full"
   >
     <motion.div
@@ -114,11 +114,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Undergraduate specializing in Data Science and Engineering, with a
-        strong interest in machine learning and data science. Committed to
-        leveraging AI solutions for real-world challenges and dedicated to
-        continuous learning. Eager to contribute to innovative projects and
-        gain hands-on experience in this dynamic field.
+        Undergraduate specializing in Data Science and Engineering, with a strong interest in machine learning and data science. Committed to leveraging AI solutions for real-world challenges and dedicated to continuous learning. Excels in teamwork, collaborates effectively in group settings, and is also a motivated self-learner. Eager to contribute to innovative projects and gain hands-on experience in this dynamic field.
       </motion.p>
 
       {/* <div className='mt-20 flex flex-wrap gap-10'>
